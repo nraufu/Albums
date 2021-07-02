@@ -65,7 +65,7 @@ const App = () => {
           onclick={handleClick}
         />
         {isLoading ? <Spinner /> : <Photos photos={photos} />}
-        {!isLoading &&textMessage && <h2 className="text-center">{textMessage}</h2>}
+        {!isLoading && !photos.length > 0 && textMessage && <h2 className="text-center">{textMessage}</h2>}
       </div>
 	  
     </Fragment>
