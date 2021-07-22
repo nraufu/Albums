@@ -1,6 +1,6 @@
 # Albums
 
-A Small Application to which uses [jsonplaceholder](https://jsonplaceholder.typicode.com/guide/) Api to render Album photos.
+A Small Application to which uses [albums backend server](https://albums-challenge.herokuapp.com/) Api to render Album photos.
 
 # features
 
