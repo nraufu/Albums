@@ -37,7 +37,7 @@ const App = () => {
 
     try {
       const response = await axios.get(
-        `https://jsonplaceholder.typicode.com/albums/${albumId}/photos`
+        `https://albums-challenge.herokuapp.com/api/albums/${albumId}`
       );
 
 	  if(response.data.length === 0) setTextMessage("No Photos Found for this Album Id");
